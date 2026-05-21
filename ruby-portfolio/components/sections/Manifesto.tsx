@@ -66,21 +66,22 @@ export function Manifesto() {
             transition={{ duration: 0.7 }}
           >
             <span className="font-mono text-[10px] tracking-[0.2em] text-[var(--color-champagne)]">
-              ON THE NAME
+              THE APPROACH
             </span>
             <h2
               className="font-display mt-3 font-black leading-[0.88] tracking-[-0.02em] text-[var(--color-ivory)]"
               style={{ fontSize: "clamp(40px, 5vw, 80px)" }}
             >
-              Hard.{" "}
+              Design.{" "}
               <em className="italic text-[var(--color-ruby-bright)]">
-                Multifaceted.
+                Build.
               </em>{" "}
-              Precise.
+              Ship.
             </h2>
             <p className="font-display mt-6 max-w-[40ch] text-base italic leading-relaxed text-[var(--color-ivory-dim)] md:text-lg lg:ml-auto">
-              A ruby is one of the hardest substances on earth — formed under
-              extreme pressure, multifaceted, precise in its geometry.
+              I lead with the design — flows in Figma, tokens defined, intent
+              set. Then I code it: components, types, accessible by default.
+              One person, both surfaces.
             </p>
           </motion.div>
         </div>
@@ -126,22 +127,22 @@ export function Manifesto() {
             transition={{ duration: 0.7 }}
           >
             <span className="font-mono text-[10px] tracking-[0.2em] text-[var(--color-champagne)]">
-              ON THE CRAFT
+              THE STANDARD
             </span>
             <h2
               className="font-display mt-3 font-black leading-[0.88] tracking-[-0.02em] text-[var(--color-ivory)]"
               style={{ fontSize: "clamp(40px, 5vw, 80px)" }}
             >
-              Visual.{" "}
+              Pixel-true.{" "}
               <em className="italic text-[var(--color-ruby-bright)]">
-                Performant.
+                Type-safe.
               </em>{" "}
-              Accessible.
+              Maintained.
             </h2>
             <p className="font-display mt-6 max-w-[40ch] text-base italic leading-relaxed text-[var(--color-ivory-dim)] md:text-lg">
-              Great frontend work catches light differently from every angle —
-              each face earning its place. The craft is invisible to the wearer.
-              They only experience the beauty.
+              Frontend is finished when users feel the product, not the markup.
+              I keep components small, types tight, and the next dev&apos;s job
+              easy.
             </p>
           </motion.div>
         </div>
@@ -158,12 +159,11 @@ export function Manifesto() {
           className="font-display mt-8 italic leading-[1.3] text-[var(--color-ivory)]"
           style={{ fontSize: "clamp(20px, 2.5vw, 36px)" }}
         >
-          &ldquo;Formed under pressure. Hard to break. Beautiful from every
-          angle — and{" "}
+          &ldquo;Designers think in screens. Engineers think in systems. I work{" "}
           <em className="not-italic font-black text-[var(--color-ruby-bright)]">
-            invisible
+            where they meet
           </em>{" "}
-          to the person wearing it.&rdquo;
+          — between Figma and the live URL.&rdquo;
         </motion.blockquote>
         <div className="champagne-rule mx-auto mt-8 w-24" />
         <p className="font-mono mt-6 text-[10px] tracking-[0.3em] text-[var(--color-champagne)]/70">
