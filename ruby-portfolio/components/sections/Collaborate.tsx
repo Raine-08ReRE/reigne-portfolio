@@ -29,7 +29,7 @@ export function Collaborate() {
       {/* Section meta */}
       <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between">
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]">
-          07 / 07 — LET&apos;S COLLABORATE
+          08 / 08 — LET&apos;S COLLABORATE
         </span>
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]/60">
           FIN

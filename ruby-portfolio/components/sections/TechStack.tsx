@@ -53,7 +53,7 @@ export function TechStack() {
               className="font-display font-black leading-[0.85] text-[var(--color-ivory)]/10"
               style={{ fontSize: "clamp(120px, 18vw, 280px)" }}
             >
-              04
+              05
             </span>
           </div>
 

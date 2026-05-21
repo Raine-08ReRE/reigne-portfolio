@@ -211,7 +211,7 @@ export function Cover() {
             {profile.tagline}
           </span>
           <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]">
-            01 / 07 →
+            01 / 08 →
           </span>
         </div>
       </div>

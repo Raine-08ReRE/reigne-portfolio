@@ -24,7 +24,7 @@ export function WhoIAm() {
       {/* Section meta */}
       <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between">
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-ruby)]">
-          02 / 07 — WHO I AM
+          02 / 08 — WHO I AM
         </span>
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-ruby)]/60">
           ÉDITION N°1
