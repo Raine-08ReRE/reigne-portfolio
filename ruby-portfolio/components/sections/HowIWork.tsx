@@ -14,7 +14,7 @@ export function HowIWork() {
       {/* Section meta */}
       <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between">
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]">
-          03 / 06 — HOW I WORK
+          03 / 07 — HOW I WORK
         </span>
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]/60">
           PROCESS
@@ -41,7 +41,7 @@ export function HowIWork() {
           className="font-display font-black leading-[0.88] tracking-[-0.02em] text-[var(--color-ivory)]"
           style={{ fontSize: "clamp(48px, 6vw, 80px)" }}
         >
-          HOW I <em className="not-italic italic text-[var(--color-champagne)]">WORK</em>
+          HOW I <em className="italic text-[var(--color-champagne)]">WORK</em>
         </h2>
         <p className="font-display mt-4 max-w-[40ch] text-base italic text-[var(--color-ivory-dim)] md:text-lg">
           Four phases. Each one earns the next.

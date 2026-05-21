@@ -13,7 +13,7 @@ export function OtherWork() {
       {/* Section meta */}
       <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between">
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-ruby)]">
-          05 / 06 — OTHER WORK
+          06 / 07 — OTHER WORK
         </span>
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-ruby)]/60">
           ARCHIVE
@@ -36,7 +36,7 @@ export function OtherWork() {
             style={{ fontSize: "clamp(48px, 6vw, 80px)" }}
           >
             OTHER{" "}
-            <em className="not-italic italic text-[var(--color-ruby)]">WORK</em>
+            <em className="italic text-[var(--color-ruby)]">WORK</em>
           </h2>
           <p className="font-display max-w-[28ch] pb-3 text-base italic text-[var(--color-jet)]/60 md:text-lg">
             Smaller builds and side experiments — context for the body of work.

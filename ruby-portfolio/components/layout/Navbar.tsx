@@ -7,6 +7,7 @@ import { profile } from "@/lib/data";
 const navItems = [
   { label: "Who", href: "#who-i-am" },
   { label: "Process", href: "#how-i-work" },
+  { label: "Stack", href: "#tech-stack" },
   { label: "Work", href: "#featured" },
   { label: "Archive", href: "#other-work" },
   { label: "Contact", href: "#collaborate" },
@@ -38,7 +39,7 @@ export function Navbar() {
           className="font-display text-base font-bold tracking-wider text-[var(--color-ivory)] hover:text-[var(--color-ruby-bright)] transition-colors md:text-lg"
           data-cursor-hover
         >
-          R<em className="not-italic italic text-[var(--color-champagne)]">.</em>R
+          R<em className="italic text-[var(--color-champagne)]">.</em>R
         </a>
 
         <nav className="hidden md:block">

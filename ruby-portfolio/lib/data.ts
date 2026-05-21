@@ -19,6 +19,23 @@ export type Credential = {
   title: string;
   issuer: string;
   date: string;
+  image?: string;
+  hours?: string;
+};
+
+export type TechCategory = {
+  label: string;
+  count: string;
+  items: string[];
+};
+
+export type TechCard = {
+  name: string;
+  initial: string;
+  category: string;
+  year: string;
+  note: string;
+  size: "lg" | "md" | "sm";
 };
 
 export type Education = {
@@ -27,6 +44,12 @@ export type Education = {
   period: string;
   honors: string;
   location: string;
+};
+
+export type Affiliation = {
+  role: string;
+  org: string;
+  period: string;
 };
 
 export const profile = {
@@ -41,7 +64,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/reigne-cristine-rivera",
   tagline: "Crafted with intention, built with precision",
   bio: "Computer Science student at the University of Makati, majoring in Application Development. I build interfaces where design precision meets engineering craft — translating Figma files into living products. Currently leading UI/UX and frontend for ForeRent, a Laravel-based property management platform. Based in Taguig, open to freelance and entry-level frontend roles.",
-  primaryStack: ["REACT", "NEXT.JS", "TYPESCRIPT", "FRAMER MOTION"],
+  primaryRoles: ["UI/UX DESIGNER", "FRONTEND DEV", "FULL-STACK DEV"],
   bioTags: [
     "React",
     "Next.js",
@@ -148,6 +171,235 @@ export const education: Education[] = [
   },
 ];
 
+export const techStack: TechCategory[] = [
+  {
+    label: "LANGUAGES",
+    count: "07",
+    items: ["TypeScript", "JavaScript", "HTML", "CSS", "PHP", "C#", "Java"],
+  },
+  {
+    label: "FRAMEWORKS",
+    count: "07",
+    items: [
+      "React",
+      "Next.js",
+      "Laravel",
+      "Tailwind CSS",
+      "CodeIgniter",
+      "Bootstrap",
+      "Framer Motion",
+    ],
+  },
+  {
+    label: "TOOLS",
+    count: "05",
+    items: ["VS Code", "Git / GitHub", "Docker", "Android Studio", "Unity"],
+  },
+  {
+    label: "DESIGN",
+    count: "04",
+    items: ["Figma", "Canva", "UI/UX Design", "Hi-Fi Prototyping"],
+  },
+  {
+    label: "DATABASES",
+    count: "02",
+    items: ["MySQL", "SQL"],
+  },
+];
+
+export const techCollection: TechCard[] = [
+  // Featured / large
+  {
+    name: "React",
+    initial: "R",
+    category: "FRAMEWORK",
+    year: "2025",
+    note: "Component-driven UIs at scale. The lingua franca of modern frontend.",
+    size: "lg",
+  },
+  {
+    name: "Next.js",
+    initial: "N",
+    category: "FRAMEWORK",
+    year: "2025",
+    note: "App Router, server components, zero-config deploys. This portfolio.",
+    size: "lg",
+  },
+  {
+    name: "TypeScript",
+    initial: "TS",
+    category: "LANGUAGE",
+    year: "2025",
+    note: "Type-safe components. The professionalism signal mid-roles look for.",
+    size: "lg",
+  },
+  {
+    name: "Laravel",
+    initial: "L",
+    category: "FRAMEWORK",
+    year: "2025",
+    note: "Backend MVC powering ForeRent's property management platform.",
+    size: "lg",
+  },
+  {
+    name: "Figma",
+    initial: "Fi",
+    category: "DESIGN",
+    year: "2023",
+    note: "Where the design lives before it becomes code. Hi-fi prototyping home.",
+    size: "lg",
+  },
+  // Medium
+  {
+    name: "Tailwind CSS",
+    initial: "Tw",
+    category: "FRAMEWORK",
+    year: "2024",
+    note: "Utility-first CSS. Pairs with shadcn for consistent component design.",
+    size: "md",
+  },
+  {
+    name: "JavaScript",
+    initial: "JS",
+    category: "LANGUAGE",
+    year: "2022",
+    note: "The runtime that runs the web. Foundation of everything client-side.",
+    size: "md",
+  },
+  {
+    name: "PHP",
+    initial: "P",
+    category: "LANGUAGE",
+    year: "2023",
+    note: "Server-side language behind ForeRent and Ready, Seat, Go.",
+    size: "md",
+  },
+  {
+    name: "C#",
+    initial: "C#",
+    category: "LANGUAGE",
+    year: "2023",
+    note: "Unity scripting for The Merchant's Seeker. Strong typing, OOP roots.",
+    size: "md",
+  },
+  {
+    name: "MySQL",
+    initial: "My",
+    category: "DATABASE",
+    year: "2022",
+    note: "Relational data home. Powers every full-stack project shipped.",
+    size: "md",
+  },
+  {
+    name: "Git / GitHub",
+    initial: "Gh",
+    category: "TOOL",
+    year: "2022",
+    note: "Version control + collaboration. Where code history is told.",
+    size: "md",
+  },
+  {
+    name: "Unity",
+    initial: "U",
+    category: "TOOL",
+    year: "2024",
+    note: "Game engine. Shipped The Merchant's Seeker as solo developer.",
+    size: "md",
+  },
+  {
+    name: "Framer Motion",
+    initial: "Fm",
+    category: "FRAMEWORK",
+    year: "2025",
+    note: "Every animation in this portfolio — letter physics, parallax, springs.",
+    size: "md",
+  },
+  // Small
+  {
+    name: "HTML",
+    initial: "H",
+    category: "LANGUAGE",
+    year: "2022",
+    note: "The structure of the web.",
+    size: "sm",
+  },
+  {
+    name: "CSS",
+    initial: "C",
+    category: "LANGUAGE",
+    year: "2022",
+    note: "The skin and the soul.",
+    size: "sm",
+  },
+  {
+    name: "Java",
+    initial: "Ja",
+    category: "LANGUAGE",
+    year: "2023",
+    note: "Native Android. PillFluence medication tracker.",
+    size: "sm",
+  },
+  {
+    name: "VS Code",
+    initial: "Vs",
+    category: "TOOL",
+    year: "2022",
+    note: "Editor of choice.",
+    size: "sm",
+  },
+  {
+    name: "Docker",
+    initial: "D",
+    category: "TOOL",
+    year: "2024",
+    note: "Containerized dev environments.",
+    size: "sm",
+  },
+  {
+    name: "Android Studio",
+    initial: "As",
+    category: "TOOL",
+    year: "2023",
+    note: "Native Android development IDE.",
+    size: "sm",
+  },
+  {
+    name: "CodeIgniter",
+    initial: "Ci",
+    category: "FRAMEWORK",
+    year: "2024",
+    note: "Lightweight PHP MVC. Ready, Seat, Go.",
+    size: "sm",
+  },
+];
+
+export const techMarqueeItems = [
+  "REACT",
+  "NEXT.JS",
+  "TYPESCRIPT",
+  "LARAVEL",
+  "TAILWIND",
+  "FIGMA",
+  "MYSQL",
+  "PHP",
+  "JAVASCRIPT",
+  "C#",
+  "UNITY",
+  "JAVA",
+  "DOCKER",
+  "FRAMER MOTION",
+  "CODEIGNITER",
+  "BOOTSTRAP",
+];
+
+export const affiliations: Affiliation[] = [
+  {
+    role: "Creatives Committee Member",
+    org: "CCIS Student Council, University of Makati",
+    period: "Aug 2022 — May 2025",
+  },
+];
+
 export const certifications: Credential[] = [
   { title: "SQL", issuer: "HackerRank", date: "Jan 2026" },
   { title: "CSS", issuer: "HackerRank", date: "Jan 2026" },
@@ -156,15 +408,21 @@ export const certifications: Credential[] = [
     title: "SHE++ Masterclass on Alibaba Cloud System",
     issuer: "PhilDev S&T Foundation & Alibaba Cloud",
     date: "Feb 2025",
+    hours: "8 hours",
+    image: "/images/certificates/she-alibaba-cloud.webp",
   },
   {
     title: "SHE++ Workshop — Design Thinking & Strategic Foresight",
     issuer: "PhilDev S&T Foundation & Alibaba Cloud",
     date: "Feb 2025",
+    hours: "12 hours",
+    image: "/images/certificates/she-design-thinking.webp",
   },
   {
     title: "SHE++ Workshop — Leadership & Technopreneurial Mindset",
     issuer: "PhilDev S&T Foundation & Alibaba Cloud",
     date: "Feb 2025",
+    hours: "12 hours",
+    image: "/images/certificates/she-leadership.webp",
   },
 ];

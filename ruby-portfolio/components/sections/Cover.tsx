@@ -122,7 +122,7 @@ export function Cover() {
           transition={{ delay: 0.8, duration: 0.6 }}
           className="font-display flex flex-col gap-1 pb-2"
         >
-          {profile.primaryStack.map((tag, i) => (
+          {profile.primaryRoles.map((tag, i) => (
             <span
               key={tag}
               className="text-lg font-bold leading-tight md:text-2xl"
@@ -208,10 +208,10 @@ export function Cover() {
         <div className="champagne-rule" />
         <div className="mt-3 flex items-center justify-between">
           <span className="font-display text-xs italic text-[var(--color-ivory-dim)] md:text-sm">
-            {profile.tagline} — inspired by Jennie Kim&apos;s Ruby
+            {profile.tagline}
           </span>
           <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]">
-            01 / 06 →
+            01 / 07 →
           </span>
         </div>
       </div>

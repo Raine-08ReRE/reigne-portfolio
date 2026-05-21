@@ -29,7 +29,7 @@ export function Collaborate() {
       {/* Section meta */}
       <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between">
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]">
-          06 / 06 — LET&apos;S COLLABORATE
+          07 / 07 — LET&apos;S COLLABORATE
         </span>
         <span className="font-mono text-[10px] tracking-[0.18em] text-[var(--color-champagne)]/60">
           FIN
@@ -57,7 +57,7 @@ export function Collaborate() {
                 <span className="block text-[var(--color-ivory)]">LET&apos;S</span>
                 <span className="block text-[var(--color-ivory)]">BUILD</span>
                 <span className="block">
-                  <em className="not-italic italic text-[var(--color-ruby-bright)]">
+                  <em className="italic text-[var(--color-ruby-bright)]">
                     TOGETHER.
                   </em>
                 </span>
